@@ -1,6 +1,6 @@
 var spawn = require('child_process').spawn;
 
-free = spawn('hexo', ['server', '-p 8080']);
+free = spawn('hexo', ['server', '-p 8088']);
 
 free.stdout.on('data', function (data) {
 
