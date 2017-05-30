@@ -69,9 +69,9 @@ ssh-keygen -t rsa
 
 ## webhooks创建
 
-钩子的创建在github上配置非常简单，进入到仓库页面，点击Settings-Webhooks，直接Add webhooks，这里只选择监听push事件，push事件发生后github将发送请求到VPS监听的URL（http://host:监听端口/webhooks/push/123）上，VPS负责相关的更新操作。
+钩子的创建在github上配置非常简单，进入到仓库页面，点击Settings-Webhooks，直接Add webhooks，这里只选择监听push事件，push事件发生后github将发送请求到VPS监听的URL（http://host:监听端口/webhooks/push/123 ）  上，VPS负责相关的更新操作。
 
-## VPS服务器Hexo下载安装
+## VPS服务器安装Hexo
 
 与本地安装一样，执行
  ```
