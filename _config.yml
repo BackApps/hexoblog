@@ -72,5 +72,5 @@ deploy:
 # add post views
 leancloud_visitors:
   enable: true
-  app_id: 'wzag8w6Xb109JI0Ta2AEGipy-gzGzoHsz'
-  app_key: 'AjOLnfLAmSJKmfpxLwWh9qK3'
+  app_id: wzag8w6Xb109JI0Ta2AEGipy-gzGzoHsz
+  app_key: AjOLnfLAmSJKmfpxLwWh9qK3
